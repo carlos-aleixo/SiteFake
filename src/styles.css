@@ -1,0 +1,47 @@
+.image {
+    width: 300px;
+    height: 200px;
+    object-fit: fill;
+}
+
+.descricao {
+    word-wrap: break-word;
+    /*padding-left: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    padding: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.produto {
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/*.price {
+    background-color: green;
+    padding: 5px;
+    text-align: center;
+}*/
+
+.preco-com-quadrado {
+    position: relative;
+    /* Permite que o quadrado seja posicionado em relação a este elemento */
+    display: inline-block;
+    /* Transforma o elemento em um bloco de linha */
+    padding: 5px 10px;
+    /* Espaçamento interno para a borda */
+    border: 1px solid green;
+    /* Adiciona uma borda verde */
+    border-radius: 50%;
+    /* Define um raio para criar uma borda circular */
+    background-color: green;
+    /* Cor de fundo branca para cobrir a parte interna da borda */
+}
